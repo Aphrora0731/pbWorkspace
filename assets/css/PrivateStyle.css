@@ -57,6 +57,16 @@
     margin-bottom: 3px;
 }
 
+.businessIntroTitleLong {
+    width: 347px;
+    height: 42px;
+    font-size: 30px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 42px;
+}
+
 .businessIntroSubtitle {
     font-size: 14px;
     font-family: PingFangSC-Regular, PingFang SC;
@@ -521,4 +531,109 @@ div.rightTagContainer p {
 
 .rowMarginStyle {
     margin-bottom: 110px;
+}
+
+.cloudRentContainer {
+    text-align: center;
+}
+
+div.cloudRentContainer img {
+    margin-bottom: 27px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+div.cloudRentContainer h {
+    width: 220px;
+    height: 28px;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+
+div.cloudRentContainer p {
+    margin-top: 8px;
+    width: 264px;
+    height: 88px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 22px;
+    text-align: left;
+}
+
+.painPoint {
+    width: 400px;
+    height: 146px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 12px 0px rgba(62, 158, 255, 0.15);
+    border-radius: 8px;
+    padding-left: 17px;
+    margin-bottom: 30px;
+}
+
+.painPointPoint {
+    width: 8px;
+    height: 8px;
+    background: #6480F5;
+}
+
+div.painPoint h {
+    width: 60px;
+    height: 28px;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 28px;
+}
+
+div.painPoint p1 {
+    width: 208px;
+    height: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #31353A;
+    line-height: 22px;
+}
+
+div.painPoint p2 {
+    width: 80px;
+    height: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 22px;
+}
+
+div.painPoint p3 {
+    width: 304px;
+    height: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #969DA3;
+    line-height: 22px;
+}
+
+.theFuckingCircle {
+    position: relative;
+}
+
+.RENT {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    /* apply negative top and left margins to truly center the element */
 }
