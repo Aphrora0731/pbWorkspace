@@ -161,7 +161,7 @@ div.square h1 {
 }
 
 div.square h2 {
-    width: 80px;
+    width: 180px;
     height: 28px;
     font-size: 20px;
     font-family: PingFangSC-Medium, PingFang SC;
@@ -636,4 +636,92 @@ div.painPoint p3 {
     left: 50%;
     margin: -25px 0 0 -25px;
     /* apply negative top and left margins to truly center the element */
+}
+
+.cloudInsureComment {
+    text-align: center;
+    width: 80px;
+    height: 22px;
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 22px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.cloudInsureBlock {
+    text-align: center;
+    padding-top: 20px;
+    width: 360px;
+    height: 370px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-left: 18px;
+}
+
+div.cloudInsureBlock img {
+    margin-bottom: 7px;
+}
+
+div.cloudInsureBlock h {
+    width: 160px;
+    height: 28px;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 28px;
+    padding-left: 10px;
+}
+
+div.cloudInsureBlock p {
+    width: 332px;
+    height: 132px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #31353A;
+    line-height: 22px;
+}
+
+.blueBar {
+    width: 40px;
+    height: 4px;
+    background: #28C1FF;
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 15px;
+    margin-left: 136px;
+}
+
+.attributeContainer {
+    text-align: center;
+    width: 374px;
+    margin-bottom: 30px;
+}
+
+div.attributeContainer img {
+    margin-bottom: 30px;
+}
+
+div.attributeContainer h {
+    width: 120px;
+    height: 33px;
+    font-size: 24px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #31353A;
+    line-height: 33px;
+}
+
+div.attributeContainer p {
+    margin-top: 30px;
+    width: 374px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 22px;
 }
